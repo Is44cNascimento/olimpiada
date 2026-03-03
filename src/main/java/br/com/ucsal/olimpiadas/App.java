@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import static br.com.ucsal.olimpiadas.CalcularNota.calcularNota;
+
 public class App {
 
 	static long proximoParticipanteId = 1;
@@ -193,14 +195,6 @@ public class App {
 		System.out.println("Nota (acertos): " + nota + " / " + tentativa.getRespostas().size());
 	}
 
-	public static int calcularNota(Tentativa tentativa) {
-		int acertos = 0;
-		for (var r : tentativa.getRespostas()) {
-			if (r.isCorreta())
-				acertos++;
-		}
-		return acertos;
-	}
 
 	static void listarTentativas() {
 		System.out.println("\n--- Tentativas ---");
