@@ -3,6 +3,9 @@ package br.com.ucsal.olimpiadas;
 import java.util.ArrayList;
 import java.util.List;
 
+import static br.com.ucsal.olimpiadas.App.tentativas;
+import static br.com.ucsal.olimpiadas.CalcularNota.calcularNota;
+
 public class Tentativa {
 	private long id;
 	private long participanteId;
@@ -37,5 +40,15 @@ public class Tentativa {
 	public List<Resposta> getRespostas() {
 		return respostas;
 	}
+
+
+
+    static void listarTentativas() {
+        System.out.println("\n--- Tentativas ---");
+        for (var t : tentativas) {
+            System.out.printf("#%d | participante=%d | prova=%d | nota=%d/%d%n", t.getId(), t.getParticipanteId(),
+                    t.getProvaId(), calcularNota(t), t.getRespostas().size());
+        }
+    }
 
 }
