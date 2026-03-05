@@ -6,6 +6,7 @@ import static br.com.ucsal.olimpiadas.App.*;
 import static br.com.ucsal.olimpiadas.CalcularNota.calcularNota;
 import static br.com.ucsal.olimpiadas.Escolher.escolherProva;
 import static br.com.ucsal.olimpiadas.Escolher.escolherParticipante;
+import static br.com.ucsal.olimpiadas.Tabuleiro.imprimirTabuleiroFen;
 
 public class AplicarProva {
 
