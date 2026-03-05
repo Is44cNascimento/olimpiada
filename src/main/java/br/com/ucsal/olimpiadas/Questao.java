@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 import static br.com.ucsal.olimpiadas.App.*;
+import static br.com.ucsal.olimpiadas.Escolher.escolherProva;
 
 public class Questao {
 
