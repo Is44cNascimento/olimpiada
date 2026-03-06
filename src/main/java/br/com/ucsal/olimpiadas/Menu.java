@@ -3,6 +3,7 @@ package br.com.ucsal.olimpiadas;
 import java.util.Scanner;
 
 import static br.com.ucsal.olimpiadas.AplicarProva.aplicarProva;
+import static br.com.ucsal.olimpiadas.App.in;
 import static br.com.ucsal.olimpiadas.Participante.cadastrarParticipante;
 import static br.com.ucsal.olimpiadas.Prova.cadastrarProva;
 import static br.com.ucsal.olimpiadas.Questao.cadastrarQuestao;
@@ -14,7 +15,7 @@ public class Menu {
     static void iniciar(){
         seed();
 
-        Scanner in = new Scanner(System.in);
+
 
         while (true) {
             System.out.println("\n=== OLIMPÍADA DE QUESTÕES (V25) ===");

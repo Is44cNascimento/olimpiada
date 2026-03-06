@@ -2,14 +2,15 @@ package br.com.ucsal.olimpiadas;
 
 import java.util.Scanner;
 
+import static br.com.ucsal.olimpiadas.App.in;
 import static br.com.ucsal.olimpiadas.App.participantes;
 import static br.com.ucsal.olimpiadas.App.provas;
-import static java.lang.System.in;
+
 
 public class Escolher {
     static Long escolherParticipante() {
 
-        Scanner in = new Scanner(System.in);
+
 
         System.out.println("\nParticipantes:");
         for (var p : participantes) {

@@ -1,7 +1,8 @@
 package br.com.ucsal.olimpiadas;
 
 import java.util.Arrays;
-import java.util.Scanner;
+import static br.com.ucsal.olimpiadas.App.in;
+
 
 import static br.com.ucsal.olimpiadas.App.*;
 import static br.com.ucsal.olimpiadas.Escolher.escolherProva;
@@ -56,7 +57,7 @@ public class Questao {
             return;
         }
 
-        Scanner in = new Scanner(System.in);
+
 
         var provaId = escolherProva();
         if (provaId == null)

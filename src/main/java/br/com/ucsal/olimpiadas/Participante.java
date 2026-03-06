@@ -1,9 +1,8 @@
 package br.com.ucsal.olimpiadas;
 
-import java.util.Scanner;
 
-import static br.com.ucsal.olimpiadas.App.participantes;
-import static br.com.ucsal.olimpiadas.App.proximoParticipanteId;
+
+import static br.com.ucsal.olimpiadas.App.*;
 
 public class Participante {
 	private long id;
@@ -38,7 +37,7 @@ public class Participante {
 
     static void cadastrarParticipante() {
 
-        Scanner in = new Scanner(System.in);
+
         System.out.print("Nome: ");
         var nome = in.nextLine();
 

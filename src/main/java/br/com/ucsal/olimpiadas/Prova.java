@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static br.com.ucsal.olimpiadas.App.provas;
 import static br.com.ucsal.olimpiadas.App.proximaProvaId;
-import static java.lang.System.in;
+import static br.com.ucsal.olimpiadas.App.in;
 
 public class Prova {
 
@@ -29,7 +29,7 @@ public class Prova {
 
 
     static void cadastrarProva() {
-        Scanner in = new Scanner(System.in);
+
 
 
         System.out.print("Título da prova: ");
