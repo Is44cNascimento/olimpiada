@@ -3,7 +3,7 @@ package br.com.ucsal.olimpiadas;
 import java.util.ArrayList;
 import java.util.List;
 
-import static br.com.ucsal.olimpiadas.App.tentativas;
+import static br.com.ucsal.olimpiadas.Config.tentativas;
 import static br.com.ucsal.olimpiadas.CalcularNota.calcularNota;
 
 public class Tentativa {

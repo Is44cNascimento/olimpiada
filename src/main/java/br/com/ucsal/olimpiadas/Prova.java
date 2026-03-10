@@ -2,9 +2,9 @@ package br.com.ucsal.olimpiadas;
 
 import java.util.Scanner;
 
-import static br.com.ucsal.olimpiadas.App.provas;
-import static br.com.ucsal.olimpiadas.App.proximaProvaId;
-import static br.com.ucsal.olimpiadas.App.in;
+import static br.com.ucsal.olimpiadas.Config.provas;
+import static br.com.ucsal.olimpiadas.Config.proximaProvaId;
+import static br.com.ucsal.olimpiadas.Config.in;
 
 public class Prova {
 

@@ -2,9 +2,9 @@ package br.com.ucsal.olimpiadas;
 
 import java.util.Scanner;
 
-import static br.com.ucsal.olimpiadas.App.in;
-import static br.com.ucsal.olimpiadas.App.participantes;
-import static br.com.ucsal.olimpiadas.App.provas;
+import static br.com.ucsal.olimpiadas.Config.in;
+import static br.com.ucsal.olimpiadas.Config.participantes;
+import static br.com.ucsal.olimpiadas.Config.provas;
 
 
 public class Escolher {

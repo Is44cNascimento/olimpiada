@@ -1,6 +1,6 @@
 package br.com.ucsal.olimpiadas;
 
-import static br.com.ucsal.olimpiadas.App.*;
+import static br.com.ucsal.olimpiadas.Config.*;
 
 public class Seed {
 

@@ -3,7 +3,7 @@ package br.com.ucsal.olimpiadas;
 import java.util.Scanner;
 
 import static br.com.ucsal.olimpiadas.AplicarProva.aplicarProva;
-import static br.com.ucsal.olimpiadas.App.in;
+import static br.com.ucsal.olimpiadas.Config.in;
 import static br.com.ucsal.olimpiadas.Participante.cadastrarParticipante;
 import static br.com.ucsal.olimpiadas.Prova.cadastrarProva;
 import static br.com.ucsal.olimpiadas.Questao.cadastrarQuestao;
